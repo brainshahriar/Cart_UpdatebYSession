@@ -80,6 +80,7 @@ session_start();
 
     function subTotal()
     {
+
         gt=0;
         for(i=0;i<iprice.length;i++){
             itotal[i].innerText=(iprice[i].value)*(iquantity[i].value);
